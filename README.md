@@ -46,7 +46,7 @@ The core idea: **use chaos as a structured source of complexity** to extract mea
 ---
 
 ## 📂 Repository Structure
-project_root/
+project_root/  
 ├── data/  
 │ ├── btc/  
 │ │ └── btc_1h_2023_2024.csv  
@@ -56,22 +56,22 @@ project_root/
 │ ├── lorenz_xyz.csv  
 │ ├── stenflo_xyz.csv  
 │ └── rikitake_xyz.csv  
-│
-├── features/
+│  
+├── features/  
 │ ├── btc_features.csv  
 │ ├── eth_features.csv  
 │ └── shib_features.csv  
-│
-├── notebooks/
+│  
+├── notebooks/  
 │ ├── 01_simulate_chaotic_signals.ipynb  
 │ ├── 02_feature_engineering.ipynb  
 │ ├── 03_prepare_market_data.ipynb  
 │ ├── 04_model_training_and_validation.ipynb  
 │ └── 05_backtest_strategy.ipynb  
-│
-├── backtest/  
-│ └── results_summary.csv  
-│
+│  
+├── backtest/   
+│ └── results_summary.csv   
+│  
 ├── README.md  
 └── requirements.txt  
 
