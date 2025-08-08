@@ -47,38 +47,35 @@ The core idea: **use chaos as a structured source of complexity** to extract mea
 
 ## 📂 Repository Structure
 project_root/
-├── data/
-│ ├── btc/
-│ │ └── btc_1h_2023_2024.csv
-│ ├── eth/
-│ │ └── eth_1h_2023_2024.csv
-│ ├── shib/
-│ │ └── shib_1h_2023_2024.csv
-│ └── chaotic_signals/
-│ ├── lorenz_xyz.csv
-│ ├── stenflo_xyz.csv
-│ └── rikitake_xyz.csv
+├── data/  
+│ ├── btc/  
+│ │ └── btc_1h_2023_2024.csv  
+│ ├── eth/  
+│ │ └── eth_1h_2023_2024.csv  
+│ ├── shib/  
+│ │ └── shib_1h_2023_2024.csv  
+│ └── chaotic_signals/  
+│ ├── lorenz_xyz.csv  
+│ ├── stenflo_xyz.csv  
+│ └── rikitake_xyz.csv  
 │
 ├── features/
-│ ├── btc_features.csv
-│ ├── eth_features.csv
-│ └── shib_features.csv
+│ ├── btc_features.csv  
+│ ├── eth_features.csv  
+│ └── shib_features.csv  
 │
 ├── notebooks/
-│ ├── 01_simulate_chaotic_signals.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_prepare_market_data.ipynb
-│ ├── 04_model_training_and_validation.ipynb
-│ └── 05_backtest_strategy.ipynb
+│ ├── 01_simulate_chaotic_signals.ipynb  
+│ ├── 02_feature_engineering.ipynb  
+│ ├── 03_prepare_market_data.ipynb  
+│ ├── 04_model_training_and_validation.ipynb  
+│ └── 05_backtest_strategy.ipynb  
 │
-├── models/
-│ └── saved_model.pkl
+├── backtest/  
+│ └── results_summary.csv  
 │
-├── backtest/
-│ └── results_summary.csv
-│
-├── README.md
-└── requirements.txt
+├── README.md  
+└── requirements.txt  
 
 
 ---
@@ -98,7 +95,7 @@ project_root/
 ---
 
 ## 🛠 Tech Stack
-- **Python**: 3.10+
+- **Python**: 3.13+
 - **Core Libraries**: NumPy, Pandas, SciPy, Scikit-learn
 - **Time Series ML**: TensorFlow / PyTorch, XGBoost, LightGBM
 - **Backtesting**: `vectorbt`, `bt`, or `backtrader`
