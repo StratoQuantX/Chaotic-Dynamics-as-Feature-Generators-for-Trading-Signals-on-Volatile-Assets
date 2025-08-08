@@ -101,5 +101,5 @@ project_root/
 - **Backtesting**: `vectorbt`, `bt`, or `backtrader`
 - **Visualisation**: Matplotlib, Seaborn, Plotly
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
