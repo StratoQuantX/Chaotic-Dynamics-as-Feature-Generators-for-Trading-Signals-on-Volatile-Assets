@@ -51,9 +51,7 @@ project_root/
 │ ├── btc/  
 │ │ └── btc_1h_2023_2024.csv  
 │ ├── eth/  
-│ │ └── eth_1h_2023_2024.csv  
-│ ├── shib/  
-│ │ └── shib_1h_2023_2024.csv  
+│ │ └── eth_1h_2023_2024.csv   
 │ └── chaotic_signals/  
 │ ├── lorenz_xyz.csv  
 │ ├── stenflo_xyz.csv  
